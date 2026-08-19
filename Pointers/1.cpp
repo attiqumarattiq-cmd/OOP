@@ -1,32 +1,17 @@
 #include<iostream>
-#include<string>
 using namespace std;
-
-class Teacher{
-    // properties
-
-    string name;
-    string debt;
-    string subject;
-    double salary;
-
-    //Methods / member functions
-    void changedept(string newdebt) 
-    {
-        debt = newdebt;
-    }
-
-};
 
 int main()
 {
-    Teacher t1;
-    t1.name = "Umar";
-    t1.subject = "C++";
-    t1.dept = "Computer Science";
-    t1.salary = 25000;
+    int x = 10;
+    int *ptr = &x;
 
-    
-    cout << t1.name << endl;
+    cout << &x << endl;                 // prints address of a
+    cout << ptr << endl;                // prints the address of x stored in it
+    cout << *ptr << endl;               // Prints value of x
+    cout << &*ptr << endl;              
+    cout << &ptr << endl;
+
+
     return 0;
 }
