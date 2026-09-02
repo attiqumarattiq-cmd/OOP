@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()git 
+int main()
 {
     int size;
     cout << "Enter size of array of characters which were used Dynamically: ";
@@ -18,6 +18,9 @@ int main()git
     {
         cout << *(char_ptr + i) << endl;
     }
+
+    delete char_ptr;
+    char_ptr = NULL;
 
     return 0;
 }
