@@ -1,5 +1,5 @@
-#include<iostream>
-#include<cstring>
+#include <iostream>
+#include <cstring>
 using namespace std;
 
 struct library
@@ -32,8 +32,6 @@ int main()
     cout << "Book Name: " << s3.book_name << endl;
     cout << "Author Name: " << s3.author_name << endl;
     cout << "==================================" << endl;
-
-    
 
     return 0;
 }
