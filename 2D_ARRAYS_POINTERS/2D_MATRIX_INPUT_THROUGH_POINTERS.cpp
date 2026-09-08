@@ -30,7 +30,6 @@ int main()
     int matrix1[3][3] = {{1,2,3},{4,5,6}, {7,8,9}};
     int *ptr2 = &matrix1[0][0];
 
-    
     cout << *(ptr2 + 3) << " " << *(ptr2 + 4) << " " << *(ptr2 + 5)<< endl;
 
 
