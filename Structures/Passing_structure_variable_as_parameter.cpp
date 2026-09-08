@@ -1,8 +1,7 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-
-struct student 
+struct student
 {
     string first_name;
     int rollno;
@@ -36,15 +35,13 @@ void display1(student s1, student s2, student s3)
     cin >> s3.cgpa;
 }
 
-
 int main()
 {
     student s1;
     student s2;
     student s3;
 
-    display1(s1,s2,s3);
-
+    display1(s1, s2, s3);
 
     return 0;
 }
