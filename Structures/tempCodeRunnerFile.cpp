@@ -1,50 +1,25 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-
-struct student 
+struct Student
 {
-    string first_name;
-    int rollno;
+    string name;
+    int rollNo;
     float cgpa;
 };
-void display1(student s1, student s2, student s3)
-{
-    cout << "============================" << endl;
-    cout << "For 1st Student" << endl;
-    cout << "First Name: ";
-    cin >> s1.first_name;
-    cout << "Roll No: ";
-    cin >> s1.rollno;
-    cout << "CGPA: ";
-    cin >> s1.cgpa;
-    cout << "=============================" << endl;
-    cout << "For 2nd Student" << endl;
-    cout << "First Name: ";
-    cin >> s2.first_name;
-    cout << "Roll No: ";
-    cin >> s2.rollno;
-    cout << "CGPA: ";
-    cin >> s2.cgpa;
-    cout << "=============================" << endl;
-    cout << "For 3rd Student" << endl;
-    cout << "First Name: ";
-    cin >> s3.first_name;
-    cout << "Roll No: ";
-    cin >> s3.rollno;
-    cout << "CGPA: ";
-    cin >> s3.cgpa;
-}
 
+void display(Student s)
+{
+    cout << "Name: " << s.name << endl;
+    cout << "Roll No: " << s.rollNo << endl;
+    cout << "CGPA: " << s.cgpa << endl;
+}
 
 int main()
 {
-    student s1;
-    student s2;
-    student s3;
+    Student s1 = {"Umar", 25, 3.5};
 
-    display1(s1,s2,s3);
-
+    display(s1);
 
     return 0;
 }
