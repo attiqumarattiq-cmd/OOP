@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 struct Student
@@ -6,7 +6,6 @@ struct Student
     int rollno;
     float marks;
 };
-
 
 int main()
 {
