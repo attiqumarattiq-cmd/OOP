@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 union dataunion
@@ -17,8 +17,6 @@ int main()
     cout << s1.age << endl;
 
     cout << s1.rollno << endl;
-
-
 
     return 0;
 }
