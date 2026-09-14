@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 struct Student
@@ -15,13 +15,10 @@ void display(Student *ptr1)
     cout << ptr1->marks << endl;
 }
 
-
-
 int main()
 {
     Student s1;
     display(&s1);
-
 
     return 0;
 }
